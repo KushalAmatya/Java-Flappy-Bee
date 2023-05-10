@@ -12,7 +12,7 @@ public class Tube extends GameObject {
     public Tube(int x, int y) {
         super(x, y);
         if (proxyImage == null) {
-            proxyImage = new ProxyImage("/assets/TubeBody.png");
+            proxyImage = new ProxyImage("/assets/TubeBody2.png");
 
         }
         this.image = proxyImage.loadImage().getImage();

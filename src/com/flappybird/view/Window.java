@@ -34,7 +34,7 @@ public class Window {
       
         java.awt.EventQueue.invokeLater(() -> {
             
-            Window window = new Window(WIDTH, HEIGHT, "Flappy Bird", game);
+            Window window = new Window(WIDTH, HEIGHT, "Flappy Bee", game);
         
             
         });
